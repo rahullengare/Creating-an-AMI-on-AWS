@@ -1,5 +1,31 @@
 # Creating-an-AMI-on-AWS
 Creation of Amazon Machine Images (AMIs) from EC2 instances on AWS.
+### 📌 About Project
+
+- This project focuses on **creating a custom Amazon Machine Image (AMI)** on AWS.
+- An AMI is a **pre-configured template** containing an operating system, application server, and applications, used to launch EC2 instances quickly.
+- The main goal is to **capture a configured EC2 instance** and convert it into a reusable image for scalability and reliability.
+
+---
+
+### 🛠️ Technology Used
+
+1. **Amazon Web Services (AWS)** – Cloud platform for hosting and managing infrastructure.
+2. **EC2 (Elastic Compute Cloud)** – Virtual server instances used to configure the environment before creating an AMI.
+3. **Amazon Machine Image (AMI)** – Template that stores the instance configuration.
+4. **AWS Management Console / AWS CLI** – Tools for creating and managing AMIs.
+
+---
+
+### What is AMI?
+
+- **AMI (Amazon Machine Image):** An **Amazon Machine Image (AMI)** is a pre-configured template in AWS that contains an operating system, application server, and required software, which acts as a blueprint to launch EC2 instances, enabling easy scaling, backup, and rapid deployment of identical virtual servers in the cloud.
+
+### What is EC2?
+
+- **EC2 Instance:** An **EC2 instance (Elastic Compute Cloud instance)** is a virtual server in Amazon Web Services (AWS) used to run applications on the cloud, providing resizable compute capacity where you can install operating systems, deploy software, and host workloads, making it similar to a computer in the cloud that can be scaled up or down based on your needs.
+
+---
 ## Step 1: Launch an EC2 Instance
 
 1. Go to AWS Console → EC2
